@@ -61,7 +61,7 @@ while True:
         time.sleep(0.05)
 
 ```
-# Final Code for Servo
+ Final Code for Servo
 
 ### Evidence
 
@@ -71,7 +71,7 @@ while True:
 
 ### Reflection
 
-
+It wsa difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. 
 
 
 ## CircuitPython_LCD
@@ -83,7 +83,7 @@ while True:
 
 ```
 
-# Final code for the circuitpython Servo.
+Final code for the circuitpython Servo.
 
 ### Evidence
 
