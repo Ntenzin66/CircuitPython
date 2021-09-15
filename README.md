@@ -74,7 +74,7 @@ while True:
 
 ### Reflection
 
-It was difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. I need to remeber which wire is the power, ground, and analog.
+It was difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. I need to remeber which wire is the power, ground, and analog. I learned that you should color code the wires with the ones coming out of the servo to make it easier for you to wire it up. Black for Black, Red for Red, and White for White.
 
 
 ## CircuitPython_LCD
