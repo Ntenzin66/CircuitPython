@@ -41,24 +41,6 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 ### Description & Code
 
 ```python
-Code goes here
-
-```
-
-### Evidence
-
-### Wiring
-
-### Reflection
-
-
-
-
-## CircuitPython_LCD
-
-### Description & Code
-
-```python
 import time
 import board
 import pwmio
@@ -79,12 +61,33 @@ while True:
         time.sleep(0.05)
 
 ```
+# Final Code for Servo
+
+### Evidence
+
+![Servo Gif](![Video](https://user-images.githubusercontent.com/90460146/133450204-ae1c807d-1da8-4b4b-83ce-24062d0f11ea.gif)
+
+### Wiring
+
+### Reflection
+
+
+
+
+## CircuitPython_LCD
+
+### Description & Code
+
+```python
+
+
+```
 
 # Final code for the circuitpython Servo.
 
 ### Evidence
 
-![Servo Gif](![Video](https://user-images.githubusercontent.com/90460146/133450204-ae1c807d-1da8-4b4b-83ce-24062d0f11ea.gif)
+
 
 
 ### Wiring
