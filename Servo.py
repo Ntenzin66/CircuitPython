@@ -1,4 +1,3 @@
-"""CircuitPython Essentials Servo standard servo example"""
 import time
 import board
 import pwmio
