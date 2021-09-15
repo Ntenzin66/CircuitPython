@@ -69,9 +69,12 @@ while True:
 
 ### Wiring
 
+![Servo Wiring](https://user-images.githubusercontent.com/90460146/133452674-86a69bfd-a632-4746-9df8-652005c39daa.png)
+
+
 ### Reflection
 
-It wsa difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. 
+It was difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. I need to remeber which wire is the power, ground, and analog.
 
 
 ## CircuitPython_LCD
