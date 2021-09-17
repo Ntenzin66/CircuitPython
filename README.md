@@ -86,7 +86,7 @@ It was difficult at first, I had many problems, but in the end I managed to make
 
 ```
 
-Final code for the circuitpython Servo.
+
 
 ### Evidence
 
