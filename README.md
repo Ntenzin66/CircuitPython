@@ -108,7 +108,7 @@ New code that I learned for the Ultrasonic Sensor
 
 ### Evidence
 
-![Ultrasonic Sensor(https://user-images.githubusercontent.com/90460146/134684198-699c4519-523b-4a43-93d7-e3daae6c354a.gif)
+![Ultrasonic Sensor](https://user-images.githubusercontent.com/90460146/134684198-699c4519-523b-4a43-93d7-e3daae6c354a.gif)
 
 
 
