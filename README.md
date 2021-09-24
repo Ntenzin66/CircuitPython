@@ -77,19 +77,38 @@ while True:
 It was difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. I need to remeber which wire is the power, ground, and analog. I learned that you should color code the wires with the ones coming out of the servo to make it easier for you to wire it up. Black for Black, Red for Red, and White for White.
 
 
-## CircuitPython_LCD
+## CircuitPython_Ultrasonic Sensor
 
 ### Description & Code
 
 ```python
+if pos < 5:
+        r = 255
+        b = 0
+        g = 0
+    elif pos < 20:
+        r = 255-((pos-5)/15*255)
+        g = 0
+        b = (pos-5)/15*255
+    elif pos < 35:
+        r = 0
+        g = (pos-20)/15*255
+        b = 255-((pos-20)/15*255)
+    else:
+        r = 0
+        g = 255
+        b = 0
 
+    dot.fill((int(r), int(g), int(b)))
 
 ```
+New code that I learned for the Ultrasonic Sensor
 
 
 
 ### Evidence
 
+![Ultrasonic Sensor(https://user-images.githubusercontent.com/90460146/134684198-699c4519-523b-4a43-93d7-e3daae6c354a.gif)
 
 
 
