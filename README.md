@@ -6,7 +6,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [Table of Contents](#TableOfContents)
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
-* [CircuitPython_Ultrasonic Sensor](#CircuitPython_Ultrasonic Sensor)
+* [CircuitPython_UltrasonicSensor](#CircuitPython_UltrasonicSensor)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
@@ -77,7 +77,7 @@ while True:
 It was difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. I need to remeber which wire is the power, ground, and analog. I learned that you should color code the wires with the ones coming out of the servo to make it easier for you to wire it up. Black for Black, Red for Red, and White for White.
 
 
-## CircuitPython_Ultrasonic Sensor
+## CircuitPython_UltrasonicSensor
 
 ### Description & Code
 
