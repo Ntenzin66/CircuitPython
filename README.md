@@ -119,7 +119,7 @@ New code that I learned for the Ultrasonic Sensor
 
 ### Reflection
 
-
+This is the hardest but most enjoyable code yet. The first part of printing the distance was pretty simple, but the other half was what I was stuck on for the longest. I managed to get it to change colors from red, to blue, to green, but I could not make it fade. I learned that using equations you can fade colors through the color spectrum. An example of this equation could be, (r = 255-((pos-5)/15*255)
 
 
 
