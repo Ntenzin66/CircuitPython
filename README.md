@@ -114,6 +114,9 @@ New code that I learned for the Ultrasonic Sensor
 
 ### Wiring
 
+![Sensor Wiring](https://user-images.githubusercontent.com/90460146/134685297-a3c4821e-796a-41b9-bf62-2e5d38b66366.png)
+
+
 ### Reflection
 
 
