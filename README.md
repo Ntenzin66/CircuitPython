@@ -6,7 +6,7 @@ This repository will actually serve as a aid to help you get started with your o
 * [Table of Contents](#TableOfContents)
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
-* [CircuitPython_LCD](#CircuitPython_LCD)
+* [CircuitPython_UltrasonicSensor](#CircuitPython_UltrasonicSensor)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
@@ -77,27 +77,49 @@ while True:
 It was difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. I need to remeber which wire is the power, ground, and analog. I learned that you should color code the wires with the ones coming out of the servo to make it easier for you to wire it up. Black for Black, Red for Red, and White for White.
 
 
-## CircuitPython_LCD
+## CircuitPython_UltrasonicSensor
 
 ### Description & Code
 
 ```python
+if pos < 5:
+        r = 255
+        b = 0
+        g = 0
+    elif pos < 20:
+        r = 255-((pos-5)/15*255)
+        g = 0
+        b = (pos-5)/15*255
+    elif pos < 35:
+        r = 0
+        g = (pos-20)/15*255
+        b = 255-((pos-20)/15*255)
+    else:
+        r = 0
+        g = 255
+        b = 0
 
+    dot.fill((int(r), int(g), int(b)))
 
 ```
+New code that I learned for the Ultrasonic Sensor
 
 
 
 ### Evidence
 
+![Ultrasonic Sensor](https://user-images.githubusercontent.com/90460146/134684198-699c4519-523b-4a43-93d7-e3daae6c354a.gif)
 
 
 
 ### Wiring
 
+![Sensor Wiring](https://user-images.githubusercontent.com/90460146/134685297-a3c4821e-796a-41b9-bf62-2e5d38b66366.png)
+
+
 ### Reflection
 
-
+This is the hardest but most enjoyable code yet. The first part of printing the distance was pretty simple, but the other half was what I was stuck on for the longest. I managed to get it to change colors from red, to blue, to green, but I could not make it fade. I learned that using equations you can fade colors through the color spectrum. An example of this equation could be, (r = 255-((pos-5)/15*255)
 
 
 
