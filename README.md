@@ -18,17 +18,34 @@ Description goes here
 Here's how you make code look like code:
 
 ```python
-Code goes here
+import board
+import neopixel
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+
+print("Make it red!")
+
+dot.brightness = .1
+
+while True:
+    dot.fill((255, 0, 255))
 
 ```
+Above is the code for the Hello Circuitpython assignment. It makes the LED on the metro board turn purple because of the dot.fill((255, 0, 255))
 
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+
+
+
+https://user-images.githubusercontent.com/90460146/138469157-632eab21-b7bc-462e-b7cf-c8ef22f53c19.mp4
+
+Credit to https://github.com/hheisig51/VigilantWaddle
+
 
 ### Wiring
-Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+
+You do not use wiring in this one, all you do is plug the metro board into the HDMI port on the computer.
 
 ### Reflection
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
