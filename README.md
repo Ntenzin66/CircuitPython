@@ -75,6 +75,7 @@ while True:
 
 ```
 This is my final code for my Servo. It will rotate to 180 degrees from 0, then from 180 back to 0 at 5 degrees at a time. 
+
 Credit to: https://learn.adafruit.com/circuitpython-essentials/circuitpython-servo This website helped me out with the servo and gave me a better understanding about circuit python. 
 
 ### Evidence
