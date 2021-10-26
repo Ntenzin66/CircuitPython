@@ -1,4 +1,4 @@
-# CircuitPython
+_# CircuitPython
 
 # CircuitPython
 This repository will actually serve as a aid to help you get started with your own template.  You should copy the raw form of this readme into your own, and use this template to write your own.  If you want to draw inspiration from other classmates, feel free to check [this directory of all students!](https://github.com/chssigma/Class_Accounts).
@@ -28,7 +28,7 @@ while True:
     dot.fill((255, 0, 255))
 
 ```
-Above is the code for the Hello Circuitpython assignment. It makes the LED on the metro board turn purple because of the dot.fill((255, 0, 255)) 
+Above is the code for the Hello Circuitpython assignment. It makes the LED on the metro board turn purple because of the dot.fill((255, 0, 255)).
 
 
 ### Evidence
@@ -46,7 +46,7 @@ You do not use wiring in this one, all you do is plug the metro board into the H
 
 ### Reflection
 
-It was pretty simple as it was the first assignment. I couldn't really learn arduino that well last year since it was all virtual, so it was  pretty cool learning a new code from scratch. This assignment did not require wiring, all you had to do was plug in the metro board to the HDMI port on the computer. 
+It was pretty simple as it was the first assignment. I couldn't really learn arduino that well last year since it was all virtual, so it was  pretty cool learning new code from scratch. This assignment did not require wiring, all I had to do was plug in the metro board to the HDMI port on the computer. The metro board already had a neopixel on it, so it was very easy to see if the code was working or not. If the color changed to the corresponding rgb color code, then you know it works.
 
 
 ## CircuitPython_Servo
@@ -89,7 +89,7 @@ Credit to: https://learn.adafruit.com/circuitpython-essentials/circuitpython-ser
 
 ### Reflection
 
-It was difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. I need to remember which wire is the power, ground, and analog. I learned that you should color code the wires with the ones coming out of the servo to make it easier for you to wire it up. Black for Black, Red for Red, and White for White.
+It was difficult at first, I had many problems, but in the end I managed to make it work. The wiring was the main problem. I need to remember which wire is the power, ground, and analog. I learned that you should color code the wires with the ones coming out of the servo to make it easier for you to wire it up. Black for Black, Red for Red, and White for White. 
 
 
 ## CircuitPython_UltrasonicSensor
@@ -117,7 +117,7 @@ if pos < 5:
     dot.fill((int(r), int(g), int(b)))
 
 ```
-Above is the new code that I learned to help me with my Ultrasonic Sensor. Based on how far an object is from the sensor, it will change colors and fade into them. If the object is 
+Above is the new code that I learned to help me with my Ultrasonic Sensor. Based on how far an object is from the sensor, it will change colors and fade into them. If the object is 5 centimeters away, it will turn red, if the object is 20 centimeters away, it will turn blue, and finally if the object is 35 centimeters away, it will turn green. 
 
 
 ### Evidence
@@ -133,21 +133,8 @@ Above is the new code that I learned to help me with my Ultrasonic Sensor. Based
 
 ### Reflection
 
-This is the hardest but most enjoyable code yet. The first part of printing the distance was pretty simple, but the other half was what I was stuck on for the longest. I managed to get it to change colors from red, to blue, to green, but I could not make it fade. I learned that using equations you can fade colors through the color spectrum. An example of this equation could be, (r = 255-((pos-5)/15*255)
+This is the hardest but most enjoyable code yet. The first part of printing the distance was pretty simple, but the other half was what I was stuck on for the longest. I managed to get it to change colors from red, to blue, to green, but I could not make it fade. I learned that using equations you can fade colors through the color spectrum. An example of this equation could be, (r = 255-((pos-5)/15*255). I also used variables in the code to help me out with the equations. The pos is the current position that the object is in. The pos > 20 means that the objects position is at 20 centimeters. I can include this in the equation and it'll help me fade out the red LED into a blue LED.
 
 
 
-## NextAssignment
-
-### Description & Code
-
-```python
-Code goes here
-
-```
-
-### Evidence
-
-### Wiring
-
-### Reflection
+_
