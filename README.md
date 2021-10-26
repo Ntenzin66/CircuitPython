@@ -13,9 +13,6 @@ This repository will actually serve as a aid to help you get started with your o
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
-
-Here's how you make code look like code:
 
 ```python
 import board
@@ -31,7 +28,7 @@ while True:
     dot.fill((255, 0, 255))
 
 ```
-Above is the code for the Hello Circuitpython assignment. It makes the LED on the metro board turn purple because of the dot.fill((255, 0, 255))
+Above is the code for the Hello Circuitpython assignment. It makes the LED on the metro board turn purple because of the dot.fill((255, 0, 255)) 
 
 
 ### Evidence
@@ -48,9 +45,8 @@ Credit to https://github.com/hheisig51/VigilantWaddle
 You do not use wiring in this one, all you do is plug the metro board into the HDMI port on the computer.
 
 ### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
 
-
+It was pretty simple as it was the first assignment. I couldn't really learn arduino that well last year since it was all virtual, so it was  pretty cool learning a new code from scratch.
 
 
 ## CircuitPython_Servo
