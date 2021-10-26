@@ -46,7 +46,7 @@ You do not use wiring in this one, all you do is plug the metro board into the H
 
 ### Reflection
 
-It was pretty simple as it was the first assignment. I couldn't really learn arduino that well last year since it was all virtual, so it was  pretty cool learning a new code from scratch.
+It was pretty simple as it was the first assignment. I couldn't really learn arduino that well last year since it was all virtual, so it was  pretty cool learning a new code from scratch. This assignment did not require wiring, all you had to do was plug in the metro board to the HDMI port on the computer. 
 
 
 ## CircuitPython_Servo
@@ -75,6 +75,7 @@ while True:
 
 ```
 This is my final code for my Servo. It will rotate to 180 degrees from 0, then from 180 back to 0 at 5 degrees at a time. 
+Credit to: https://learn.adafruit.com/circuitpython-essentials/circuitpython-servo This website helped me out with the servo and gave me a better understanding about circuit python. 
 
 ### Evidence
 
@@ -115,7 +116,7 @@ if pos < 5:
     dot.fill((int(r), int(g), int(b)))
 
 ```
-Above is the new code that I learned to help me with my Ultrasonic Sensor.
+Above is the new code that I learned to help me with my Ultrasonic Sensor. Based on how far an object is from the sensor, it will change colors and fade into them. If the object is 
 
 
 ### Evidence
