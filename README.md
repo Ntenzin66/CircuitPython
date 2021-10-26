@@ -135,6 +135,3 @@ Above is the new code that I learned to help me with my Ultrasonic Sensor. Based
 
 This is the hardest but most enjoyable code yet. The first part of printing the distance was pretty simple, but the other half was what I was stuck on for the longest. I managed to get it to change colors from red, to blue, to green, but I could not make it fade. I learned that using equations you can fade colors through the color spectrum. An example of this equation could be, (r = 255-((pos-5)/15*255). I also used variables in the code to help me out with the equations. The pos is the current position that the object is in. The pos > 20 means that the objects position is at 20 centimeters. I can include this in the equation and it'll help me fade out the red LED into a blue LED.
 
-
-
-_
